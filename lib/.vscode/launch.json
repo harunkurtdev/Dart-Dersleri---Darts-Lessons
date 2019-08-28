@@ -1,0 +1,39 @@
+{
+    // Olası öznitelikler hakkında bilgi edinmek için IntelliSense kullanın.
+    // Mevcut özniteliklerin açıklamalarını görmek için fare ile üzerine gelin.
+    // Daha fazla bilgi için ziyaret edin: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Dart",
+            "type": "dart",
+            "request": "launch",
+            "program": "Booleans.dart"
+        },
+        {
+            "name": "Dart",
+            "type": "dart",
+            "request": "launch",
+            "program": "String_Yazilar.dart"
+        },
+       
+        {
+            "name": "Dart",
+            "program": "Numbers_Sayilar.dart",
+            "type": "dart",
+            "request": "launch"
+        },
+        {
+            "name": "Dart",
+            "program": "Degiskenler.dart",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "Dart",
+            "type": "dart",
+            "request": "launch",
+            "program": "İlk_Ders.dart"
+        }
+    ]
+}
