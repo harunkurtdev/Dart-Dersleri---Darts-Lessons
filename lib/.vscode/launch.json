@@ -8,6 +8,12 @@
             "name": "Dart",
             "type": "dart",
             "request": "launch",
+            "program": "Maps- Haritatalanmış Değişkenler.dart"
+        },
+        {
+            "name": "Dart",
+            "type": "dart",
+            "request": "launch",
             "program": "Lists(Arrays)-Listeler(Diziler).dart"
         },
         {
