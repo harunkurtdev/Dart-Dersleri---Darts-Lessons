@@ -118,5 +118,16 @@ print(listekle.length.toString()+' Burada 0 öğeliden 6 öğeliye çıkardık')
   // 5. index i kaldırcağız
  
  print(list);
+ /**
+  * [merhaba, dünya, 1, 2, 3,
+  * bu listeye, bunu ekleriz bu şekilde,
+  *  merhaba, dünya, 1, 2, 3]
+  * görüldüğü gibi "tamam" list içinde ki itemler dan kaldırmış olduk 
+  */
+
+
+
+
+
 
 }
