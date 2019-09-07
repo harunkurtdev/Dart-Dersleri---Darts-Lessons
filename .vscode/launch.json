@@ -8,6 +8,19 @@
             "name": "Dart",
             "type": "dart",
             "request": "launch",
+            "program": "lib/Functions-Fonksiyon.dart"
+        },
+       
+        {
+            "name": "Dart",
+            "program": "lib/Date-Zaman.dart",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "Dart",
+            "type": "dart",
+            "request": "launch",
             "program": "Maps- Haritatalanmış Değişkenler.dart"
         },
         {
