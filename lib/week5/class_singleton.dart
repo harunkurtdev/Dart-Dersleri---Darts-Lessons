@@ -1,7 +1,18 @@
 
 
 void main(List<String> args) {
+
+  final model = CarModel(category: CarModels.bmw, name: "bmw x5", money: 25,isSecondaHand: false);
+
+  final listModel = <CarModel>[
+    CarModel(category: CarModels.bmw, name: "bmw x5", money: 25,isSecondaHand: false),
+    CarModel(category: CarModels.bmw, name: "bmw x5", money: 230,isSecondaHand: false),
+    CarModel(category: CarModels.bmw, name: "bmw x5", money: 22,isSecondaHand: false),
+  ];
   
+
+  final resultCount = listModel.where((element) => element.isSecondaHand == true).length;
+  print(resultCount);
 }
 
 
@@ -44,7 +55,7 @@ class CarModel {
 
   @override
   int get hashCode{
-    return category.hashCode^ name.hashCode^money.hashCode^city.hashCode^isSecondaHand.hashCode^;
+    return category.hashCode^ name.hashCode^money.hashCode^city.hashCode^isSecondaHand.hashCode;
   }
 
   @override
