@@ -8,11 +8,22 @@ void main(List<String> args) {
     CarModel(category: CarModels.bmw, name: "bmw x5", money: 25,isSecondaHand: false),
     CarModel(category: CarModels.bmw, name: "bmw x5", money: 230,isSecondaHand: false),
     CarModel(category: CarModels.bmw, name: "bmw x5", money: 22,isSecondaHand: false),
+    CarModel(category: CarModels.bmw, name: "bmw x5", money: 22,isSecondaHand: true),
   ];
   
 
   final resultCount = listModel.where((element) => element.isSecondaHand == true).length;
   print(resultCount);
+
+
+
+  final newCar = CarModel(category: CarModels.bmw, name: "bmw x5", money: 25,isSecondaHand: false);
+  
+  final isHaveCar = listModel.where((element) => element.city == element.city).length;
+  print(isHaveCar);
+
+  final isHaveCarNew = listModel.contains(newCar);
+  print(isHaveCarNew);
 }
 
 
