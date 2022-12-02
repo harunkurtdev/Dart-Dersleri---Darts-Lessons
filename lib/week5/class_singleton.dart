@@ -24,6 +24,17 @@ void main(List<String> args) {
 
   final isHaveCarNew = listModel.contains(newCar);
   print(isHaveCarNew);
+
+  final resultBmwMore = listModel.where((element) {
+    return element.category == CarModels.bmw && element.money >20;
+  }).join();
+
+  print(resultBmwMore);
+
+  final carNames = listModel.map((e) => e.name).join(",");
+  final mercedesCar = listModel.singleWhere((element) => element.category == CarModels.mercedes);
+
+  print(mercedesCar);
 }
 
 
