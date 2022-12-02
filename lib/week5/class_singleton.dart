@@ -32,10 +32,21 @@ void main(List<String> args) {
   print(resultBmwMore);
 
   final carNames = listModel.map((e) => e.name).join(",");
+  try {
   final mercedesCar = listModel.singleWhere((element) => element.category == CarModels.mercedes);
 
+
   print(mercedesCar);
+
+  } catch (e) {
+    print ("usta yok");    
+  }
+
+
+  final index =listModel.indexOf(newCar);
+  print(index);
 }
+
 
 
 class User {
