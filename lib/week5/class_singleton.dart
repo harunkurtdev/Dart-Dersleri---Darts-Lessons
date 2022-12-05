@@ -20,6 +20,8 @@ void main(List<String> args) {
   print(ProductConfig.instance.apiKey);
 
   ProductLazySingleton.instance;
+
+  // ProductConfig.instance.calculate(); //it is comming from extension 
   
 }
 
@@ -37,15 +39,30 @@ void calculateMoney (int money){
   }
 
 }
-/*
-this want to instance 
 
-extension prx on Product{
-   double? calculate(){
-    if (this.money == ){}
+// this want to instance 
+
+class valxx {
+  static const value=15;
+}
+// not fixed val
+/*
+extension prx on valxx{
+   dynamic calculate(){
+    switch (this) {
+      case value:
+        return "apikey is a";
+        break;
+      default:
+    }
     return null;
    } 
-}*/
+}
+
+*/
+
+
+
 
 class Product {
 

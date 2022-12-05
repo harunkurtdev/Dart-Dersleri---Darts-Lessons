@@ -3,6 +3,7 @@ class ProductConfig {
   static final ProductConfig instance = ProductConfig._("a");
 
   final String apiKey;
+  static const int apiKeyx=55;
   late final int a;
 
 
