@@ -1,10 +1,24 @@
+import 'model/product_config_model.dart';
+
 void main(List<String> args) {
+
+   final newProduct = Product.money;
+
+// xx
+  productNameChange();
+// xx
+  calculateMoney(Product.money ?? 0);
   final user1= User("pr",  "bank");
 
   final newProduct2 = Product(user1.product);
   final newProduct3 = Product.fromUser(user1);
 
   productNameChange();
+
+  ProductConfig.instance.apiKey;
+  print(ProductConfig.instance.apiKey);
+
+  ProductLazySingleton.instance;
   
 }
 
