@@ -16,6 +16,7 @@ void main(List<String> args) {
   productNameChange();
 
   ProductConfig.instance.apiKey;
+  ProductConfig.instance.a;
   print(ProductConfig.instance.apiKey);
 
   ProductLazySingleton.instance;

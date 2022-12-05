@@ -3,8 +3,10 @@ class ProductConfig {
   static final ProductConfig instance = ProductConfig._("a");
 
   final String apiKey;
+  late final int a;
 
-  ProductConfig._(this.apiKey);
+
+  ProductConfig._(this.apiKey,{ this.a=0});
   
 }
 
